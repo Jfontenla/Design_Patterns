@@ -43,4 +43,32 @@ Estos patrones están basados en dos concpetos:
 4. **Singleton**
 5. **Prototype**
 
-	
+### Patrones Estructurales
+Estos nos facilitan la modelización de softwre, especificando la forma en que unas clases se relacionan con otras.
+
+#### Listado de patrones estructurales (más conocidos):
+1. **Adapter**
+2. **Bride**
+3. **Composite**
+4. **Decorator**
+5. **Facade**
+6. **Flyweight**
+7. **Proxy**
+
+## Patrones de Comportamiento
+El grupo de patrones de diseño mas grande, en el que se encuentran la mayoria de los patrones que se usan para gestionar algoritmos, relaciones y responsabilidades entre objetos.
+
+
+#### Listado de patrones de comportamiento (más conocidos):
+
+1.  **Command**
+2.  **Chain of responsability**
+3.  **Interpreter**
+4.  **Iterator**
+5.  **Mediator**
+6.  **Memento**
+7.  **Observer**
+8.  **State**
+9.  **Strategy**
+10. **Template Method**
+11. **Visitor** 
