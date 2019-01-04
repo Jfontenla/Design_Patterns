@@ -72,3 +72,5 @@ El grupo de patrones de diseño mas grande, en el que se encuentran la mayoria d
 9.  **Strategy**
 10. **Template Method**
 11. **Visitor** 
+
+> ver donde incluimos el **LAZY LOADING**
