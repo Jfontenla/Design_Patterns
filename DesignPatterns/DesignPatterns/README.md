@@ -73,4 +73,13 @@ El grupo de patrones de diseño mas grande, en el que se encuentran la mayoria d
 10. **Template Method**
 11. **Visitor** 
 
-> ver donde incluimos el **LAZY LOADING**
+> ver donde incluimos el **LAZY LOADING*
+ 
+
+Dudas consultar [devExperto patrones de diseño](https://devexperto.com/patrones-de-diseno-software/)
+
+## Otros detalles a tener en cuenta
+> Este apartado lo creo para ir poniendo otros apartados que si que 
+> vendría bien repasar, dejar anotaciones para mirarlas mas adelante o crear una explicación / apartado para entender más rapido lo que se explica aqui
+
+### Moficadores de clase

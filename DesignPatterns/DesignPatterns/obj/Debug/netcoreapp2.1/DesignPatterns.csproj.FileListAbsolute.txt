@@ -1,0 +1,11 @@
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.csprojAssemblyReference.cache
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.AssemblyInfo.cs
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.deps.json
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.runtimeconfig.json
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.runtimeconfig.dev.json
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.dll
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.pdb
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.dll
+C:\Users\jfontenl\curso_Csharp\DesignPatterns\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.pdb

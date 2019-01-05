@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns.Abstract_Factory;
+using System;
 
 namespace DesignPatterns
 {
@@ -6,7 +7,12 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("ESTO ES UNA PRUEBA DEL PATRON ABSTRACT FACTORY");
+
+            ICoche iCoche = new CocheGas();
+            Console.WriteLine( iCoche.CrearCoche());
+
+            Console.ReadLine();
         }
     }
 }
