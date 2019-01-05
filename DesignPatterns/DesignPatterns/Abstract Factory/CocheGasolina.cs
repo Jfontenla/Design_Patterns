@@ -8,7 +8,7 @@ namespace DesignPatterns.Abstract_Factory
     /// <summary>
     /// Fabrica Concreta
     /// </summary>
-    public abstract class CocheGasolina : ICoche
+    public class CocheGasolina : ICoche
     {
         public string CrearCoche()
         {

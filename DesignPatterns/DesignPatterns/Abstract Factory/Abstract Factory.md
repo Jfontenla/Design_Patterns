@@ -23,3 +23,6 @@ Ejemplo sacado de [Juanlu Coding and Binding](https://juanlucodingbinding.wordpr
 ## Ejemplo de un patrón Abstract Factory
 Teniendo en cuenta la siguiente jerarquía de clases, la cual trata de representar muy por arriba dos familias de productos (Coche Electrico, Coche Combustible(gasolina y diesel), Coche a Gas)
 
+## Ejercicios :
+
+Blue Ray y DVD de capa simple y doble capa (tambien se podría agregar a los tipos los regrabables)
