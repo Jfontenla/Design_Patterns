@@ -40,6 +40,7 @@ Estos patrones están basados en dos concpetos:
 1. **Abstract Factory**
 2. **Factory Method**
 3. **Builder**
+4. **Fluent Builder**
 4. **Singleton**
 5. **Prototype**
 
