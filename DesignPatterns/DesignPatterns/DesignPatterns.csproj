@@ -5,4 +5,16 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Strategy.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Strategy.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Angular-Markdown-Editor" Version="1.1.3" />
+  </ItemGroup>
+
 </Project>
