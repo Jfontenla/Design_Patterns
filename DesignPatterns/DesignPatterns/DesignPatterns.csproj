@@ -10,11 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Strategy.md" />
+    <Compile Include="Strategy\Strategy.md" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Angular-Markdown-Editor" Version="1.1.3" />
+    <Folder Include="Factory Method\" />
   </ItemGroup>
 
 </Project>
