@@ -35,3 +35,6 @@ Este patrón también es una alternativa a la herencia, si estás pensando usar 
 ### Desventajas
 * La aplicacion tiene que ser consciente de todas las estrategias para seleccionar la estrategia concreta para la situación correcta.
 * Las clases estrategía y contexto, quizá están estrechamente acopladas. El contexto debe proporcionar los datos relevantes a la estrategia para implementar el algoritmo, y a veces todos los datos que pasan el contexto pueden no ser relevantes para todas las estrategias concretas.
+* Las clases Context y las estrategias normalmente se comunican mediante una interfaz especifica, que es una clase base abstracta. La estrategia base debe exponer una interfaz para todos los comportamientos requeridos, que algunas clases estrategia podrían no implementar
+* La aplicacion configura el contexto con el objeto de una estrategia requerida. Por lo tanto, la aplicacion necesita para crear y mantener dos objetos en lugar de uno.
+* Entonces, el objeto Estrategia es creado por la aplicación en la mayoria de los casos, el contexto no tiene control sobre la vida util del objeto Estrategia. Sin embargo, el contexto puede hacer una copia local del objeto estrategia.Pero, esto aumenta el requisito de memoria y tiene un impacto seguro en el rendimiento
