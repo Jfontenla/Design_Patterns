@@ -38,3 +38,15 @@ Este patrón también es una alternativa a la herencia, si estás pensando usar 
 * Las clases Context y las estrategias normalmente se comunican mediante una interfaz especifica, que es una clase base abstracta. La estrategia base debe exponer una interfaz para todos los comportamientos requeridos, que algunas clases estrategia podrían no implementar
 * La aplicacion configura el contexto con el objeto de una estrategia requerida. Por lo tanto, la aplicacion necesita para crear y mantener dos objetos en lugar de uno.
 * Entonces, el objeto Estrategia es creado por la aplicación en la mayoria de los casos, el contexto no tiene control sobre la vida util del objeto Estrategia. Sin embargo, el contexto puede hacer una copia local del objeto estrategia.Pero, esto aumenta el requisito de memoria y tiene un impacto seguro en el rendimiento
+
+
+## Conlcusiones 
+
+Al usar este patrón estaremos cumpliendo 2 principios de SOLID que son: el principio de Responsabilidad única y el principio de Abierto y Cerrado, lo cual nos ayudará mucho cuando deseamos extender y/o añadir nuevas funcionalidades a nuestras clases sin mayores dolores de cabeza
+
+## Ejercicio de ejemplo
+Imaginemos que tenemos una pequeña tienda virtual permite que nuestros clientes paguen con tarjeta de credito, pero como el negocio va creciendo tenemos que adaptarnos al entorno, así que tenemos que implementar otras formas adicionales de pagos como : deposito en cuenta, pago a traves de telefonos moviles, pago contra entrega, cheque.
+
+
+**Nota**
+> Saber la diferencia entre aplicarlo con métodos abstractos ( y la clase también) o interfaces. También mirar el enlace que me paso Pau.
