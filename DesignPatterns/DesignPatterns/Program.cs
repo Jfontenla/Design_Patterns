@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Abstract_Factory;
+using DesignPatterns.Builder;
 using DesignPatterns.Strategy;
 using System;
 
@@ -8,7 +9,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-
+            var builder = new MainBuilder();
+            builder.ExecuteBuilder();
         }
 
         public void ExecuteStrategy()
