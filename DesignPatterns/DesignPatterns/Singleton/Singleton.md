@@ -26,7 +26,8 @@ Asegura que, en cualquier momento dado, solo una instancia de un objeto está vi
 
 ## Imagen de ejemplo :
 ![Sinleton](https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg)
-
+## PARTICIPANTES
+El constructor se tiene que crear privado,y dentro de la clase tiene que haber algun metodo o propiedad pública, desde la que tener acceso desde fuera.
 ## Ejemplos donde se puede usar el patrón singleton
 * **PROXIES DE SERVICIO :**  en una aplicación, invocar un servicio también conocido como API es una operación extensa. Y creando un proceso de cliente en sí mismo que consume mucho tiempo. Al tener un proxy de servicio como Singleton, se puede reducir esta sobrecarga.
 * **FACHADAS :** Las conexiones de base de datos son otro ejemplo en el que SINGLETON se puede utilizar para producir un mejor rendimiento y sincronizacización.
@@ -34,5 +35,19 @@ Asegura que, en cualquier momento dado, solo una instancia de un objeto está vi
 * **Uso compartido de datos :** los valores de configuracion y cualquier valor constante se pueden mantener en Singleton para que otros componentes de la aplicacion puedan leerlos.
 * **Almacenamiento en caché :** la obtención de datos es un proceso que toma tiempo, mientras que el almacenamiento en caché de los datos requeridos en la memoria de la aplicación evita las llamadas de base de datos, 
 * y Singleton puede usarse aquí para manejar el almacenamiento caché con sincronizacion de subprocesos de una manera eficiente en comparación con el tipo estático.
+
+## OTRAS FORMAS DE HACER UN SINGLETON
+**NOTA**
+> hay varios tipos de construcion de singleton, los dejaré por aquí anotados
+
+> Hay muchas formas de implementar un patrón Singleton en C #.
+No hay hilo seguro Singleton.
+Hilo de seguridad Singleton.
+Hilo de seguridad Singleton utilizando doble comprobación de bloqueo.
+Singleton seguro para subprocesos sin utilizar bloqueos y sin instanciación perezosa.
+Totalización perezosa de la instanciación.
+Usando el tipo perezoso <T> de .NET 4.
+
+[C# corner](https://www.c-sharpcorner.com/UploadFile/8911c4/singleton-design-pattern-in-C-Sharp/)
 ## Ejercicios :
 
