@@ -40,3 +40,6 @@ Cuando necesitemos construir un mismo objeto complejo muchas veces y además con
 * **No es muy compatible con la inyeccion de dependencias**. _OJO ESTO NO TIENE POR QUE SER ASI_
 * **Requiere emplear mas codigo de lo que sería deseable** Se dará el caso si el Producto final tiene muchas propiedades, es posible que acabes duplicando parte del código. No todos los builders necesitarán aplicar cada uno de los pasos.
 * **Aplicado al pie de la letra el patron está "acoplado temporalmente"**
+
+## Ejemplo :
+Una tienda utiliza quiere construir una variedad de vehículos en una serie de pasos secuenciales.

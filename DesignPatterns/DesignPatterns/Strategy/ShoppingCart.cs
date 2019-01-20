@@ -6,8 +6,12 @@ namespace DesignPatterns.Strategy
 {
     public class ShoppingCart
     {
-        private IPayment iPayment;
+        private IPayment _iPayment;
         
+        public ShoppingCart(IPayment iPayment)
+        {
+            this._iPayment = iPayment;   
+        }
         public string RemoveItems()
         {
             return "this method remove items";
@@ -20,7 +24,7 @@ namespace DesignPatterns.Strategy
 
         public string Pay()
         {
-            return iPayment.Pay();
+            return _iPayment.Pay();
         }
     }
 }

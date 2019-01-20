@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.Strategy
 {
-    public class PaypalPayment
+    public class PaypalPayment: IPayment
     {
         public string Pay()
         {

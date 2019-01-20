@@ -41,8 +41,8 @@ Estos patrones están basados en dos concpetos:
 2. **Factory Method**
 3. **Builder**
 4. **Fluent Builder**
-4. **Singleton**
-5. **Prototype**
+5. **Singleton**
+6. **Prototype**
 
 ### Patrones Estructurales
 Estos nos facilitan la modelización de softwre, especificando la forma en que unas clases se relacionan con otras.
