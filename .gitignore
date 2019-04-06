@@ -1,5 +1,5 @@
 #ignorar toda la carpeta del vs
-DesignPatterns/.vs/*
+.vs/*
 
-DesignPatterns/DesignPatterns/bin/*
-DesignPatterns/DesignPatterns/obj/*
+DesignPatterns/bin/*
+DesignPatterns/obj/*
