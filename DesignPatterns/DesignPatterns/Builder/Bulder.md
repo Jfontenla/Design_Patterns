@@ -14,7 +14,7 @@ Cuando necesitemos construir un mismo objeto complejo muchas veces y además con
 
 ## Participantes
 
-* **Builder**
+* **Builder abstracto**
   * Clase abstracta para crear los objetos finales producto
 * **Builder concreto** 
   * Selecciona un nombre que defina la representacion del objeto a crear

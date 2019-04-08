@@ -13,6 +13,8 @@ namespace DesignPatterns
             builder.ExecuteBuilder();
         }
 
+
+        
         public void ExecuteStrategy()
         {
             Console.WriteLine("ESTO ES UNA PRUEBA DEL PATRON Estrategia");
@@ -24,7 +26,7 @@ namespace DesignPatterns
             Console.ReadLine();
         }
         
-        public void ExecuteFactiry()
+        public void ExecuteFactory()
         {
             Console.WriteLine("ESTO ES UNA PRUEBA DEL PATRON ABSTRACT FACTORY");
 
@@ -34,13 +36,18 @@ namespace DesignPatterns
             Console.ReadLine();
         }
 
+        public void ExecuteFactoryMethod()
+        {
+
+        }
+
         public void ChooseTypePattern()
         {
             Console.WriteLine("1.- Patrones Creacionales");
             Console.WriteLine("2.- Patrones Estructurales");
             Console.WriteLine("3.- Patrones de comportamiento");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
-            var chice=Console.ReadLine();
+            var choice=Console.ReadLine();
         }
 
         public void CreationalPatterns()
@@ -52,7 +59,7 @@ namespace DesignPatterns
             Console.WriteLine("5.Singleton");
             Console.WriteLine("6.Prototype");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
-            var chice = Console.ReadLine();
+            var choice = Console.ReadLine();
         }
 
         public void StructuralPatterns()
@@ -65,7 +72,7 @@ namespace DesignPatterns
             Console.WriteLine(" 6. Flyweight ");
             Console.WriteLine(" 7. Proxy ");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
-            var chice = Console.ReadLine();
+            var choice = Console.ReadLine();
         }
 
         public void ConductPattern()
@@ -82,7 +89,7 @@ namespace DesignPatterns
             Console.WriteLine(" 10. Template Method ");
             Console.WriteLine(" 11. Visitor ");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
-            var chice = Console.ReadLine();
+            var choice = Console.ReadLine();
         }
     }
 }
