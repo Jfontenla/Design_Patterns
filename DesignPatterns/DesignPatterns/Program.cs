@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Abstract_Factory;
 using DesignPatterns.Builder;
+using DesignPatterns.Prototype;
 using DesignPatterns.Strategy;
 using System;
 
@@ -7,15 +8,13 @@ namespace DesignPatterns
 {
     class Program
     {
-        static void Main(string[] args)
+
+        public static void ExecuteBuilder()
         {
             var builder = new MainBuilder();
             builder.ExecuteBuilder();
         }
-
-
-        
-        public void ExecuteStrategy()
+        public static void ExecuteStrategy()
         {
             Console.WriteLine("ESTO ES UNA PRUEBA DEL PATRON Estrategia");
             var strategy = new ShoppingCart(new CreditCardPayment()).Pay();
@@ -25,8 +24,8 @@ namespace DesignPatterns
             Console.WriteLine(PayPalStrategy);
             Console.ReadLine();
         }
-        
-        public void ExecuteFactory()
+
+        public static void ExecuteFactory()
         {
             Console.WriteLine("ESTO ES UNA PRUEBA DEL PATRON ABSTRACT FACTORY");
 
@@ -36,34 +35,87 @@ namespace DesignPatterns
             Console.ReadLine();
         }
 
-        public void ExecuteFactoryMethod()
+        public static void ExecuteFactoryMethod()
         {
 
         }
 
-        public void ChooseTypePattern()
+        public static void ExecutePrototype()
         {
+            var prototype = new MainPrototipe();
+            prototype.ExecutePrototype();
+        }
+
+        public static void ChooseTypePattern()
+        {
+            Console.Clear();
             Console.WriteLine("1.- Patrones Creacionales");
             Console.WriteLine("2.- Patrones Estructurales");
             Console.WriteLine("3.- Patrones de comportamiento");
+            Console.WriteLine("S.- Salir del programa");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
-            var choice=Console.ReadLine();
+            var choice = Console.ReadLine();
+            switch (choice)
+            {
+                case "1":
+                    Program.CreationalPatterns();
+                    break;
+                case "2":
+                    Program.StructuralPatterns();
+                    break;
+                case "3":
+                    Program.ConductPatterns();
+                    break;
+                case "S":
+                    break;
+                default:
+                    ChooseTypePattern();
+                    break;
+            }
         }
 
-        public void CreationalPatterns()
+        public static void CreationalPatterns()
         {
+            Console.Clear();
             Console.WriteLine("1.Abstract Factory :");
             Console.WriteLine("2.Factory Method :");
             Console.WriteLine("3.Builder :");
             Console.WriteLine("4.Fluent Builder");
             Console.WriteLine("5.Singleton");
             Console.WriteLine("6.Prototype");
+            Console.WriteLine("P.-Escoger tipo de patron");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
             var choice = Console.ReadLine();
+            switch (choice)
+            {
+                case "1":
+                    Program.ExecuteFactory();
+                    break;
+                case "2":
+                    Program.ExecuteFactoryMethod();
+                    break;
+                case "3":
+                    Program.ExecuteBuilder();
+                    break;
+                case "4":
+                case "5":
+                    Console.WriteLine("Sin desarrollar");
+                    break;
+                case "6":
+                    Program.ExecutePrototype();
+                    break;
+                case "P":
+                    ChooseTypePattern();
+                    break;
+                default:
+                    CreationalPatterns();
+                    break;
+            }
         }
 
-        public void StructuralPatterns()
+        public static void StructuralPatterns()
         {
+            Console.Clear();
             Console.WriteLine(" 1. Adapter ");
             Console.WriteLine(" 2. Bride ");
             Console.WriteLine(" 3. Composite ");
@@ -73,10 +125,18 @@ namespace DesignPatterns
             Console.WriteLine(" 7. Proxy ");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
             var choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                default:
+                    ChooseTypePattern();
+                    break;
+            }
         }
 
-        public void ConductPattern()
+        public static void ConductPatterns()
         {
+            Console.Clear();
             Console.WriteLine(" 1.  Command");
             Console.WriteLine(" 2.  Chain of responsability ");
             Console.WriteLine(" 3.  Interpreter");
@@ -90,6 +150,16 @@ namespace DesignPatterns
             Console.WriteLine(" 11. Visitor ");
             Console.WriteLine("Escoja una opcion de las que salen por pantalla");
             var choice = Console.ReadLine();
+            switch (choice)
+            {
+                default:
+                    ChooseTypePattern();
+                    break;
+            }
+        }
+        static void Main(string[] args)
+        {
+            Program.ChooseTypePattern();
         }
     }
 }
