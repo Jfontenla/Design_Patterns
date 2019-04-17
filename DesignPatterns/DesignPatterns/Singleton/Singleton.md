@@ -1,7 +1,7 @@
 ﻿# PATRON SINGLETON
 Asegura que, en cualquier momento dado, solo una instancia de un objeto está viva y admite la inicializacion perezosa.
 ## USOS DEL PATRÓN SINGLETON
-* Cuando hay que preservar un estado global de un tipo.
+* Cuando hay que preservar un estado global de un tipo(posibilidad de utilizar variables globales).
 * Para compartir datos comunes a traves de la aplicación.
 * Para reducir la sobrecarga de instanciar un objeto pesado una y otra vez.
 * Adecuado para fachadas y proxies de servicio.
