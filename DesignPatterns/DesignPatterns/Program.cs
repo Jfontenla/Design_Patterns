@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Abstract_Factory;
 using DesignPatterns.Builder;
+using DesignPatterns.Fluent_Builder;
 using DesignPatterns.Prototype;
 using DesignPatterns.Strategy;
 using System;
@@ -13,6 +14,11 @@ namespace DesignPatterns
         {
             var builder = new MainBuilder();
             builder.ExecuteBuilder();
+        }
+        public static void ExecuteFluentBuilder()
+        {
+            var fluentBuilder = new MainFluentBuilder();
+            fluentBuilder.ExecuteFuentBuilder();
         }
         public static void ExecuteStrategy()
         {
@@ -98,6 +104,8 @@ namespace DesignPatterns
                     Program.ExecuteBuilder();
                     break;
                 case "4":
+                    Program.ExecuteFluentBuilder();
+                    break;
                 case "5":
                     Console.WriteLine("Sin desarrollar");
                     break;
