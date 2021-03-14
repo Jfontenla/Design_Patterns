@@ -37,12 +37,14 @@ Estos patrones están basados en dos concpetos:
 2. Ocultar como estas implementaciones concretas necesitan ser creadas y cómo se combinan entre si
 
 #### Listado de patrones creacionales (más conocidos):
-1. **Abstract Factory**
-2. **Factory Method**
-3. **Builder**
-4. **Fluent Builder**
-5. **Singleton**
-6. **Prototype**
+1. **Abstract Factory** : Nos permite crear, mediante una interfaz o clase abstracta, conjuntos o familias de objetos que dependen mutuamente y todo esto sin especificar cual es el objeto en conctreto.
+ 
+    _Por ejemplo :_ clase abstracta coche y clases concretas coche gas, coche gasolina y coche diesel.
+2. **Factory Method** :  proveer un método abstracto de creación de un objeto, delegando en las subclases su creación definitiva.
+3. **Builder** : Propone separar la creación de la representación.de un objeto. Realizando esta separación el proceso de construcción puede crear diferentes represantaciones.
+4. **Fluent Api + Builder**
+5. **Singleton** : Asegura en cualquier momento (el que decida el desarrollador) dado solo una instancia de un objeto está viva y admite inicialización perezosa.
+6. **Prototype** : Crear nuevos objetos existentes llamados prototipos que disponen de la capacidad de clonación.
 
 ### Patrones Estructurales
 Estos nos facilitan la modelización de softwre, especificando la forma en que unas clases se relacionan con otras.
